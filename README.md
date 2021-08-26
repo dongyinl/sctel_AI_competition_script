@@ -1,0 +1,2 @@
+# sctel_AI_competition_script
+四川电信2021AI比赛相关脚本
