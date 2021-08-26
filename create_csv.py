@@ -2,7 +2,7 @@
 import os
 import csv
 
-path = r'G:\×ÀÃæÔİ´æ\CT\race2021\data\B'
+path = r'G:\æ¡Œé¢æš‚å­˜\CT\race2021\data\B'  # è‡ªå·±æ”¹å¥½æ•°æ®æ–‡ä»¶çš„è·¯å¾„
 dir_name = ['111', '000', '110', '100']
 csv_file = open(os.path.join(path, 'B_order.csv'), 'a', newline='')  # encoding='utf-8'
 writer = csv.writer(csv_file, delimiter=",")
@@ -19,7 +19,7 @@ for i in range(len(dir_name)):
 
 csv_file.close()
 
-# # create csv pandas×öcsvµÄ±êÌâÌ«Âé·³ÁË£¬¶øÇÒ»¹²»ºÃÓÃ
+# # create csv pandasåšcsvçš„æ ‡é¢˜å¤ªéº»çƒ¦äº†ï¼Œè€Œä¸”è¿˜ä¸å¥½ç”¨
 # title_label = pd.DataFrame(index=None, columns=["logo", "tel", "sign"])
 # title_label.to_csv(os.path.join(path, 'temp.csv'))
 # temp_csv = pd.read_csv(os.path.join(path, 'temp.csv'))
